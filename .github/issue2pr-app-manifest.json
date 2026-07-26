@@ -1,0 +1,15 @@
+{
+  "name": "issue2pr-agent",
+  "url": "https://example.invalid/issue2pr",
+  "hook_attributes": {
+    "url": "https://example.invalid/issue2pr/webhook",
+    "active": true
+  },
+  "default_permissions": {
+    "issues": "write",
+    "pull_requests": "write",
+    "contents": "write",
+    "workflows": "read"
+  },
+  "default_events": ["issues", "issue_comment"]
+}

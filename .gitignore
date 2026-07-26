@@ -1,0 +1,15 @@
+.issue2pr/
+.venv/
+.uv-cache/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.coverage*
+coverage.json
+dist/
+build/
+*.egg-info/
+node_modules/
+.env
+.ai-portfolio/

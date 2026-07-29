@@ -1,0 +1,9 @@
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+
+[tool.coverage.run]
+source = ["benchlab"]
+omit = ["tests/*"]
+
+[tool.coverage.report]
+show_missing = false

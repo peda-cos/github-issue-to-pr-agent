@@ -125,9 +125,9 @@ run; see Limitations):
 | Cost | $0.0000 (reference policy; no API spend) |
 | Latency p50 | 1.561 s |
 
-These are the values from the evaluator run recorded in
-`.issue2pr/eval/eval-results.json`; latency and coverage vary by machine. No hosted or LLM
-benchmark numbers are claimed because none were run.
+These values are from the final local evaluator run; `issue2pr eval` writes
+`eval-results.json` under the selected `--state` directory. Latency and coverage vary by
+machine. No hosted or LLM benchmark numbers are claimed because none were run.
 
 ## Real GitHub / real provider mode
 
